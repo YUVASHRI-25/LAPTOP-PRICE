@@ -1,6 +1,6 @@
-💻 Predicting Laptop Price from RAM
+**💻 Predicting Laptop Price from RAM**
 
-📌 Project Overview
+**📌 Project Overview**
 
 This project demonstrates how Linear Regression can be used to predict Laptop Price based on RAM size (in GB).
 
@@ -8,9 +8,9 @@ Dataset contains information about laptops such as RAM, Price, Processor, Storag
 
 For simplicity, we trained a regression model using only RAM as the feature to predict laptop prices.
 
-The task: Predict the price of a laptop with 16GB RAM.
+**The task: Predict the price of a laptop with 16GB RAM.**
 
-📊 Dataset
+**📊 Dataset**
 
 Source: Provided dataset (Laptop_Price.csv)
 
@@ -19,7 +19,7 @@ Target Variable: Price (Laptop price in INR)
 Feature Used (for simple regression): RAM (GB)
 
 
-Steps followed in the notebook:
+**Steps followed in the notebook:**
 
 Load the dataset using pandas.
 
@@ -31,13 +31,12 @@ Predict price for a laptop with 16GB RAM.
 
 Visualize the regression line vs. actual data.
 
-📈 Results
-
+**📈 Results**
 The model successfully predicts a price for 16GB RAM laptops.
 
 However, the predictions are not very accurate, since price depends on many other features.
 
-⚠️ Why Using Only RAM Is Not Accurate?
+**⚠️ Why Using Only RAM Is Not Accurate?**
 
 Laptop prices are influenced by multiple factors, not just RAM.
 Some key reasons:
@@ -52,7 +51,7 @@ Premium Devices – MacBooks and gaming laptops cost much more despite same RAM.
 
 Better with Multiple Regression – Using all features improves accuracy significantly.
 
-✅ Conclusion
+**✅ Conclusion**
 
 Simple Regression (using only RAM): Works, but predictions are rough.
 
